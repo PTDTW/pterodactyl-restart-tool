@@ -26,6 +26,7 @@ php artisan config:clear || { echo -e "${RED}Failed to clear Pterodactyl config 
 echo -e "${GREEN}_____________清理Pterodactyl Config快取_____________${RESET}"
 php artisan queue:restart || { echo -e "${RED}Failed to restart Pterodactyl queue.${RESET}"; exit 1; }
 echo -e "${GREEN}_____________重啟Pterodactyl 佇列_____________${RESET}"
+export NODE_OPTIONS=--openssl-legacy-provider
 yarn build:production || { echo -e "${RED}Failed to build Pterodactyl content.${RESET}"; exit 1; }
 echo -e "${GREEN}_____________重新打包Pterodactyl 內容_____________${RESET}"
 php artisan optimize:clear || { echo -e "${RED}Failed to optimize Pterodactyl.${RESET}"; exit 1; }
