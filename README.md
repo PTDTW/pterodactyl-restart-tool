@@ -1,6 +1,6 @@
 # 🦕 Pterodactyl Restart Script｜翼手龍面板重啟腳本
 
-一個簡單、方便、自動化的腳本，用於定時或手動重啟你的 [Pterodactyl](https://pterodactyl.io) 面板伺服器，確保穩定運作與資源釋放。
+一個簡單、方便、自動化的腳本，用於重啟你的 [Pterodactyl](https://pterodactyl.io) 面板
 
 ---
 
