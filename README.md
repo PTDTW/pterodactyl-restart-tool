@@ -1,8 +1,3 @@
-當然可以！這裡是為「Pterodactyl Restart Script｜翼手龍面板重啟腳本」設計的一個美觀且資訊豐富的 `README.md` 範本，適合放在 GitHub 上使用。你可以依照實際需求調整細節：
-
----
-
-```markdown
 # 🦕 Pterodactyl Restart Script｜翼手龍面板重啟腳本
 
 一個簡單、方便、自動化的腳本，用於定時或手動重啟你的 [Pterodactyl](https://pterodactyl.io) 面板伺服器，確保穩定運作與資源釋放。
@@ -30,8 +25,9 @@
 ### 1️⃣ 下載腳本
 
 ```bash
-wget https://raw.githubusercontent.com/ptdtw/pterodactylTool/main/pterodactylRestart.sh -O pterodactylRestart.sh && chmod +x pterodactylRestart.sh
+wget https://raw.githubusercontent.com/ptdtw/pterodactyl-restart-tool/main/pterodactylRestart.sh -O pterodactylRestart.sh && chmod +x pterodactylRestart.sh
 ```
+
 ### 2️⃣ 執行腳本
 
 ```bash
@@ -54,6 +50,3 @@ bash pterodactylRestart.sh
 ## 🐣 關於
 
 由 [糖豆魚 @ FlyBirdHost Team] 製作。  
-
-```
----
